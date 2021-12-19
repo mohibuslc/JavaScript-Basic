@@ -16,14 +16,18 @@ var position = mango.indexOf(32);
 mango.push(123); // push data to the array ;
 mango.push(188);
 
-
+mango[3]= 44;
 
 mango.unshift(290); // add data beginning of Array 
 mango.shift(290) // remove Data from array beginning position ; 
 
 mango.pop(188);
 
-console.log(shaju);
+mango[7]= 05; // Replacing element on the Array ;
+
+
+
+console.log(sonali , mango ,  shaju);
 
 
 
