@@ -25,9 +25,12 @@ mango.pop(188);
 
 mango[7]= 05; // Replacing element on the Array ;
 
+mango.unshift(12);
 
 
-console.log(sonali , mango ,  shaju);
+
+
+console.log(mango.length);
 
 
 
