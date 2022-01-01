@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeapYear</title>
+</head>
+
+<body>
+
+    <h1><u> Welcome To My LeapYear Calculation webpage </u></h1>
+
+    <p id="lyear"></p>
+
+
+    <script>
+
+        // const Year = 2022;
+
+        // const remainder = Year % 4;
+
+        function isyearLeap(year) {
+
+
+            const remainder = year % 4;
+
+            if (remainder == 0) {
+
+                return ("YEAR IS LEAP YEAR ");
+
+            } else {
+
+                return ("NOT LEAP YEAR ");
+
+            }
+
+
+
+        }
+
+        const check200 = isyearLeap(2022);
+
+        document.getElementById('lyear').innerHTML = " 2022 are leap Year ? : " + check200;
+
+
+
+    </script>
+</body>
+
+</html>

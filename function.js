@@ -1,3 +1,7 @@
+
+// learning outcome is how to do function declare and how to function work ;
+
+
 function sayName (){
 
 

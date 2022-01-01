@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+   <h1></h1> Inch to Feet Convertor : </h1>
+
+    <p id="result"> </p> 
+
+    <p id = "DADA"></p>
+
+
+    <script>
+
+
+// var inch = 199;
+
+// var total = inch / 12;
+
+var mesureMent = [ 36, 156];
+
+
+function inchTofeet(inch){
+
+    var feet = inch /16;
+     
+    return feet;
+}
+
+var nani = inchTofeet(mesureMent[0]);
+
+var dada = inchTofeet(mesureMent[1]);
+
+
+document.getElementById("result").innerHTML = " Inch To Covert =" + dada ;
+document.getElementById("DADA").innerHTML = " Inch To Covert =" + nani;
+    </script>
+</body>
+</html>
