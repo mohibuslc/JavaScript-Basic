@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function_Factorial</title>
+</head>
+<body>
+
+   <h1> Factorial Number Calculation : </h1>
+    <p id="fun_fac"></p>
+
+    <script>
+        function isFactorial(n){
+
+            var factorial = 1 ; 
+
+            for(var i = 1 ; i<= n ; i++){
+
+               var  factorial = factorial * i;
+
+            }
+            return factorial ;
+
+        }
+
+        var result = isFactorial(7);
+
+        document.getElementById('fun_fac').innerHTML = "Factorial Number :"  + result;
+
+    </script>
+</body>
+</html>

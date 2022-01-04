@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate_leapYear</title>
+</head>
+<body>
+    
+    <h1>
+
+        Welcome To leapYear Calculate Webpage : 
+
+        <p>
+            <input type="number" id="year" placeholder="Please do input number">
+
+            <button onclick= "leap_Year()">Calculate_LeapYear </button>
+
+
+        </p>
+
+        </h1>
+
+        <script>
+            
+            function leap_Year(){
+
+            var n = document.getElementById("year").value;
+
+            if ((n % 4 == 0 ) && (n % 100 != 0 ) || (n % 400 == 0 ))
+            {
+
+                alert (n +   "Is LeapYear " );
+
+            }
+            else
+             {
+
+                alert ( n + " !!! Is not leap Year ");
+            }
+          
+ }
+
+            
+            
+        </script>
+</body>
+</html>
