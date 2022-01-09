@@ -14,11 +14,9 @@ function leapYear(year) {
 
     else {
 
-        return (' sorry !! This year are not leapYear ')
+        return (' sorry !! This year are not leapYear ');
+
     }
-
-
-
 
 }
 var result = leapYear(2023);

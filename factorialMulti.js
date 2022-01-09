@@ -11,7 +11,7 @@ function factorial(n) {
 
 
 
-        console.log('Hallo Sir !!!! are you going Input Negative Number So its Result Occur is !!! ERROR!!');
+         return 'Hallo Sir !!!! are you going Input Negative Number So its Result Occur is !!! ERROR!!';
 
     }
 
@@ -32,7 +32,7 @@ function factorial(n) {
 
 
 }
-var result = factorial(-1);
+var result = factorial(-10);
 
 
 console.log('Factorial Result :', result);
