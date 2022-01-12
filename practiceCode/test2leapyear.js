@@ -1,7 +1,6 @@
 
 // Calculate of leapYear ;
 
-
 function Leap_Year(n){
 
 var remainder = n % 4 ;
